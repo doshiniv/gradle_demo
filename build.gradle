@@ -5,10 +5,10 @@ plugins {
 }
 
 sonar {
-    properties {
-        property "sonar.projectKey", "gradle-demo"
-        property "sonar.host.url", "http://localhost:9000"
-    }
+    properties {
+        property "sonar.projectKey", "gradle-demo"
+        property "sonar.host.url", "http://localhost:9000"
+    }
 }
 
 repositories {
